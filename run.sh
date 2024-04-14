@@ -293,5 +293,5 @@ if [ -e /proc/version ]; then
     # 检查日志输出
   fi
 else
-  echo "/proc/version 文件不存在。请确认自己位于Linux或Windows的WSL环境下"
+  echo "/proc/version 文件不存在。请确认自己位于Linux或Windows的WSL2环境下"
 fi
